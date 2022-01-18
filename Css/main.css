@@ -1,0 +1,229 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+@font-face {
+    font-family: 'NotoKufiArabic';
+    src: url(../Noto_Kufi_Arabic/NotoKufiArabic-Light.ttf);
+}
+header{
+    background-color: #000016  ;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo{
+    text-decoration: none;
+    color: #ec055e;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+.navigation a{
+    color: #fff;
+    text-decoration:none;
+    font-weight: 400;
+    font-size: 1.1em;
+    padding-left: 20px;
+    transition: 0.5s;
+}
+.navigation a:hover{
+    color: #ec055e;
+ 
+}
+section{
+    padding: 100px 200px;
+}
+.Main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../Iamges/pexels-anete-lusina-4792729\ \(1\).jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.Main h2{
+    color: #1b1b27;
+    font-size: 2em;
+    font-weight: 500;
+}
+.Main h2 span{
+    color: #ec055e;
+    font-size: 2em;
+    display: inline-block;
+    margin-top: 10px;
+}
+.Main h3 {
+    color:  #fff ;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.Main-Button{
+    color: #fff ;
+    background-color: #ec055e;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.937em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease   ;
+}
+.Main-Button:hover{
+    background-color: #ec055e;
+    transform: scale(1.1);
+}
+.Socile-Icon a{
+    color: #fff;
+    font-size: 1.7em;
+    padding-right: 25px;
+    text-decoration: none;
+    transition: 0.7s ease   ;
+    padding-top: 10px;
+
+}
+.Socile-Icon a:hover{
+    color: #8d0438;
+
+}
+.Title{
+    display: flex;
+    justify-content: center;
+    color: #ec055e;
+    font-size: 2.7em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.Cards{
+    background-color: #1b1b27;
+
+}
+.Content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.card{
+    background-color: #ec055e;
+    width: 19.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 25px;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: #fff;
+    font-size: 7em;
+    text-align: center;
+
+}
+.info p{
+    color: #fff;
+    line-height: 1.6;
+    font-size: 17px;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-align: center;
+    margin:10px ;
+}
+#Contact{
+    background-color: #fff;
+}
+#Contact-icon{
+    font-size: 4.5em;
+}
+#info-contact{
+    font-size: 1.3em;
+}
+footer{
+    width: 100%;
+    background-color: #000016;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    padding: 0px 20px;
+}
+.Footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.Footer-title span{
+    color: #ec055e;
+}
+
+@media (max-width:900px){
+    header{
+        padding: 8px 15px;
+    }
+    .navigation a{
+        padding-left:5px;
+    }
+
+    .Main{
+        padding: 10px 15px;
+    }
+    .Main{
+        text-align: center;
+        min-height: 80vh;
+    }
+    .Main h2{
+        color: #fff;
+        font-size: 1.5em;
+    }
+    .Main h2 span{
+        font-size: 40px;
+    }
+    .Title{
+        font-size: 1.8em;
+    }
+ 
+    .card{
+        width: 100%;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .Content{
+
+    }
+    footer{
+        font-size: 12px;
+    }
+    footer .Socile-Icon a{
+
+        font-size: 20px;
+        padding: 0 3px;
+    }
+}
